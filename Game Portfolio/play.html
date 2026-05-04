@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play Meowmory – Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="top-header">
+    <div class="container nav-flex">
+      <div class="logo"><a href="index.html">🐱 Meowmory</a></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gameplay.html" class="nav-active">Gameplay</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero-section" style="background: linear-gradient(135deg, rgba(201, 212, 182, 0.4), rgba(216, 208, 138, 0.3)); min-height: auto; padding: 4rem 0;">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Ready to Play?</h1>
+          <p class="hero-description">Launch Meowmory and test your memory skills! This game runs directly in your browser—no download needed. Choose your difficulty and beat the clock!</p>
+          
+          <div style="margin: 3rem 0; padding: 2rem; background: rgba(244, 242, 232, 0.95); border-radius: 28px; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h2 style="color: var(--olive); margin-bottom: 1.5rem; font-size: 1.5rem;">Placeholder: Game Embed</h2>
+            <div class="placeholder-image-large" style="background: linear-gradient(135deg, rgba(122, 143, 78, 0.2), rgba(156, 175, 136, 0.2)); height: 400px; margin: 0;">
+              <i class="fas fa-gamepad"></i><br>Game will be embedded here
+            </div>
+            <p style="text-align: center; margin-top: 1rem; color: var(--text-soft); font-style: italic;">Replace this placeholder with your game embed, iframe, or canvas element</p>
+          </div>
+
+          <div class="hero-actions">
+            <a href="index.html" class="btn btn-outline">
+              <i class="fas fa-arrow-left"></i> Back Home
+            </a>
+            <a href="index.html" class="btn btn-primary">
+              <i class="fas fa-home"></i> Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTRUCTIONS SECTION -->
+    <section style="padding: 4rem 0; background: linear-gradient(180deg, rgba(216, 208, 138, 0.1), rgba(201, 212, 182, 0.15)); border-top: 2px solid rgba(122, 143, 78, 0.1);">
+      <div class="container">
+        <h2 class="section-title">How to Play</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">1️⃣</div>
+            <h3>Observe</h3>
+            <p>Look at all the cat cards as they're revealed. Try to remember each cat's position and design.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">2️⃣</div>
+            <h3>Flip & Match</h3>
+            <p>Click on cards to flip them over and find matching pairs. You have limited time to complete the challenge!</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">3️⃣</div>
+            <h3>Beat the Timer</h3>
+            <p>Match all pairs before time runs out. The faster you finish, the higher your score!</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">⭐</div>
+            <h3>Level Up</h3>
+            <p>Complete levels to unlock harder challenges with more cards and tighter time limits.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIPS SECTION -->
+    <section style="padding: 4rem 0; background: linear-gradient(180deg, rgba(201, 212, 182, 0.08), transparent);">
+      <div class="container">
+        <h2 class="section-title">Pro Tips</h2>
+        <div style="max-width: 800px; margin: 0 auto;">
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 2rem; border: 1px solid rgba(122, 143, 78, 0.15); margin-bottom: 1.5rem;">
+            <h3 style="color: var(--olive); margin-bottom: 0.8rem;"><i class="fas fa-lightbulb" style="margin-right: 0.5rem;"></i> Focus & Concentrate</h3>
+            <p style="color: var(--text-soft);">Pay close attention to the cat designs. Small details like ears, accessories, and expressions can help you remember better.</p>
+          </div>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 2rem; border: 1px solid rgba(122, 143, 78, 0.15); margin-bottom: 1.5rem;">
+            <h3 style="color: var(--olive); margin-bottom: 0.8rem;"><i class="fas fa-chess" style="margin-right: 0.5rem;"></i> Strategic Flipping</h3>
+            <p style="color: var(--text-soft);">Start with corners and edges, then move to the center. This systematic approach helps you build a mental map.</p>
+          </div>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 2rem; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h3 style="color: var(--olive); margin-bottom: 0.8rem;"><i class="fas fa-bolt" style="margin-right: 0.5rem;"></i> Act Fast</h3>
+            <p style="color: var(--text-soft);">The timer is your enemy! Make quick but careful decisions. Don't overthink—trust your memory!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Meowmory</h4>
+          <p>A cute, fun memory game built with love and lots of purrs. 🐱</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Meowmory. Made with 💜 and whiskers. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="main-header">
+    <div class="container nav-flex">
+      <div class="logo"><a href="index.html">Meowmory</a></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gameplay.html">Gameplay</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="nav-active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <main class="top-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background: linear-gradient(135deg, rgba(201, 212, 182, 0.4), rgba(216, 208, 138, 0.3)); min-height: auto; padding: 4rem 0;">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">Get in Touch</h1>
+          <p class="hero-description">Have questions, feedback, or want to collaborate? We'd love to hear from you!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section style="padding: 4rem 0; background: linear-gradient(180deg, rgba(216, 208, 138, 0.15), rgba(201, 212, 182, 0.1)); border-top: 2px solid rgba(122, 143, 78, 0.1);">
+      <div class="container" style="max-width: 800px;">
+        <div class="contact-form">
+          <h2 style="text-align: center; color: var(--olive); margin-bottom: 2rem; font-size: 1.5rem;">Send us a Message</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <input type="text" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email address" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 1rem;">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div style="margin-top: 3rem; padding: 2rem; background: rgba(244, 242, 232, 0.95); border-radius: 24px; border: 1px solid rgba(122, 143, 78, 0.15);">
+          <h3 style="color: var(--olive); margin-bottom: 1.5rem; text-align: center; font-size: 1.2rem;">Other Ways to Reach Us</h3>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+            <div style="text-align: center;">
+              <div style="font-size: 2rem; color: var(--olive); margin-bottom: 0.8rem;">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <p style="color: var(--text-soft); font-size: 0.9rem; margin-bottom: 0.5rem;">Email</p>
+              <p style="color: var(--olive); font-weight: 600;">contact@meowmory.game</p>
+            </div>
+            <div style="text-align: center;">
+              <div style="font-size: 2rem; color: var(--olive); margin-bottom: 0.8rem;">
+                <i class="fab fa-discord"></i>
+              </div>
+              <p style="color: var(--text-soft); font-size: 0.9rem; margin-bottom: 0.5rem;">Discord</p>
+              <p style="color: var(--olive); font-weight: 600;">Join our Discord</p>
+            </div>
+            <div style="text-align: center;">
+              <div style="font-size: 2rem; color: var(--olive); margin-bottom: 0.8rem;">
+                <i class="fa-solid fa-cat"></i>
+              </div>
+              <p style="color: var(--text-soft); font-size: 0.9rem; margin-bottom: 0.5rem;">Social Media</p>
+              <p style="color: var(--olive); font-weight: 600;">@meowmorygame</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ SECTION -->
+        <div style="margin-top: 3rem;">
+          <h2 style="text-align: center; color: var(--olive); margin-bottom: 2rem; font-size: 1.3rem;">Frequently Asked Questions</h2>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 1.5rem; margin-bottom: 1rem; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h4 style="color: var(--olive); margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> Is Meowmory free to play?</h4>
+            <p style="color: var(--text-soft); margin-left: 1.8rem;">Yes! Meowmory is completely free to play in your browser.</p>
+          </div>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 1.5rem; margin-bottom: 1rem; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h4 style="color: var(--olive); margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> Can I save my progress?</h4>
+            <p style="color: var(--text-soft); margin-left: 1.8rem;">Your progress and high scores are saved locally on your device.</p>
+          </div>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 1.5rem; margin-bottom: 1rem; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h4 style="color: var(--olive); margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> What browsers are supported?</h4>
+            <p style="color: var(--text-soft); margin-left: 1.8rem;">Meowmory works on all modern browsers (Chrome, Firefox, Safari, Edge).</p>
+          </div>
+          <div style="background: rgba(244, 242, 232, 0.95); border-radius: 24px; padding: 1.5rem; border: 1px solid rgba(122, 143, 78, 0.15);">
+            <h4 style="color: var(--olive); margin-bottom: 0.5rem;"><i class="fas fa-question-circle"></i> How do I report a bug?</h4>
+            <p style="color: var(--text-soft); margin-left: 1.8rem;">Please use the contact form above or email us directly. We appreciate your feedback!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="play-cta-section">
+      <div class="container">
+        <h2>Ready to Play Meowmory?</h2>
+        <p>Don't wait any longer! Test your memory and join our community of cat lovers.</p>
+        <a href="play.html" class="btn btn-primary btn-large">
+          <i class="fas fa-play"></i> Start Playing Now
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Meowmory</h4>
+          <p>A cute, fun memory game built with love and lots of purrs.</p>
+          <div class="feature-icon">
+            <i class="fa-solid fa-paw"></i>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="play.html">Play Game</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Meowmory. Made with ❤︎ and whiskers. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

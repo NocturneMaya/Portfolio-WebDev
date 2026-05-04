@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meowmory</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header class="main-header">
+    <div class="container nav-flex">
+      <div class="logo"><a href="index.html">Meowmory</a></div>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-active">Home</a></li>
+          <li><a href="gameplay.html">Gameplay</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-toggle" id="mobileToggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+  
+  <main class="top-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section" style="background: linear-gradient(135deg, rgba(201, 212, 182, 0.4), rgba(216, 208, 138, 0.3));">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <div class="badge-icon">
+              <i class="fa-solid fa-gamepad"></i>
+            </div>
+            Memory Game
+          </div>
+          <h1 class="hero-title">Meowmory</h1>
+          <p class="hero-tagline">Test your memory with adorable cats.</p>
+          <p class="hero-description">A simple memory game with cute cat cards, quick matches, and playful visuals.</p>
+          <div class="hero-actions">
+            <a href="play.html" class="btn btn-primary"><i class="fas fa-play"></i> Play Now</a>
+            <a href="gallery.html" class="btn btn-outline">View Gallery</a>
+            <a href="about.html" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GAMEPLAY PREVIEW -->
+    <section class="preview-section preview-gameplay">
+      <div class="container">
+        <h2 class="section-title">Gameplay Preview</h2>
+        <p class="preview-text">Flip cards, match cute cats, and beat the timer in a quick memory challenge.</p>
+        <div class="preview-row preview-small-cards">
+          <div class="preview-card small">
+            <div class="placeholder-image" style="height: 180px; background: linear-gradient(135deg, rgba(122, 143, 78, 0.25), rgba(156, 175, 136, 0.25));">
+              <i class="fas fa-image"></i><br>Gameplay
+            </div>
+          </div>
+          <div class="preview-card small">
+            <div class="placeholder-image" style="height: 180px; background: linear-gradient(135deg, rgba(127, 164, 162, 0.25), rgba(110, 139, 85, 0.25));">
+              <i class="fas fa-image"></i><br>Match View
+            </div>
+          </div>
+        </div>
+        <div class="hero-actions" style="justify-content: center; gap: 1rem; margin-top: 1.5rem;">
+          <a href="gameplay.html" class="btn btn-outline">See Full Gameplay</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES PREVIEW -->
+    <section class="preview-section preview-features">
+      <div class="container">
+        <h2 class="section-title">Features Preview</h2>
+        <div class="preview-row">
+          <div class="feature-card compact">
+            <div class="feature-icon"><i class="fa-solid fa-cat"></i></div>
+            <h3>Cat Themes</h3>
+            <p>Unique feline designs keep every round fresh.</p>
+          </div>
+          <div class="feature-card compact">
+            <div class="feature-icon"><i class="fa-solid fa-stopwatch"></i></div>
+            <h3>Timer Mode</h3>
+            <p>Fast rounds reward quick memory work.</p>
+          </div>
+          <div class="feature-card compact">
+            <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Level Ups</h3>
+            <p>Increasing difficulty for more challenge.</p>
+          </div>
+        </div>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="features.html" class="btn btn-outline">View All Features</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY PREVIEW -->
+    <section class="preview-section preview-gallery">
+      <div class="container">
+        <h2 class="section-title">Gallery Preview</h2>
+        <div class="gallery-grid preview-gallery-grid">
+          <div class="gallery-item"><div class="placeholder-image-large" style="background: linear-gradient(135deg, rgba(122, 143, 78, 0.25), rgba(156, 175, 136, 0.25));">Screenshot</div></div>
+          <div class="gallery-item"><div class="placeholder-image-large" style="background: linear-gradient(135deg, rgba(127, 164, 162, 0.25), rgba(110, 139, 85, 0.25));">Screenshot</div></div>
+          <div class="gallery-item"><div class="placeholder-image-large" style="background: linear-gradient(135deg, rgba(194, 185, 106, 0.25), rgba(166, 160, 77, 0.25));">Screenshot</div></div>
+        </div>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="gallery.html" class="btn btn-outline">Open Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVS PREVIEW -->
+    <section class="preview-section preview-devs">
+      <div class="container">
+        <h2 class="section-title">Devs Preview</h2>
+        <div class="team-grid preview-team-grid">
+          <div class="team-card small-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Alex</h3>
+          </div>
+          <div class="team-card small-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Sofia</h3>
+          </div>
+          <div class="team-card small-card">
+            <div class="team-avatar"><i class="fas fa-user"></i></div>
+            <h3>Jordan</h3>
+          </div>
+        </div>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="about.html" class="btn btn-outline">Meet the Devs</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Meowmory</h4>
+          <p>A cute, fun memory game built with love and lots of purrs.</p>
+          <div class="feature-icon">
+            <i class="fa-solid fa-paw"></i>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="play.html">Play Game</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Meowmory. Made with ❤︎ and whiskers. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
